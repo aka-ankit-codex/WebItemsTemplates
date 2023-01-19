@@ -1,0 +1,35 @@
+/* General styles */
+body{
+    background-color: #0a0a0a;
+}
+/* General styles end */
+.icon-wrapper{
+    width: 50px;
+    height: 50px;
+    margin:auto;
+    margin-top:20rem;
+    padding: 25px;
+    background-color: #4d79bd;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.icon{
+    max-width: 100%;
+}
+.icon-wrapper:hover .icon{
+    animation: shake 1s forwards;
+}
+@keyframes shake {
+    10%{
+        transform: rotate(15deg);
+    }
+    20%{
+        transform: rotate(-15deg);
+    }
+    30%{
+        transform: rotate(15deg);
+    }
+    50%{
+        transform: rotate(0deg);
+    }
+}
